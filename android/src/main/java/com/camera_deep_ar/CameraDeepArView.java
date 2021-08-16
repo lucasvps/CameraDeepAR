@@ -271,24 +271,16 @@ public class CameraDeepArView implements PlatformView,
     private void initializeFilters() {
         masks = new ArrayList<>();
         masks.add("none");
-        masks.add("aviators");
-        masks.add("bigmouth");
-        masks.add("dalmatian");
-        masks.add("flowers");
-        masks.add("koala");
-        masks.add("lion");
-        masks.add("smallface");
-        masks.add("teddycigar");
-        masks.add("kanye");
-        masks.add("tripleface");
-        masks.add("sleepingmask");
-        masks.add("fatify");
-        masks.add("obama");
-        masks.add("mudmask");
-        masks.add("pug");
-        masks.add("slash");
-        masks.add("twistedface");
-        masks.add("grumpycat");
+        masks.add("maskn1");
+        masks.add("maskn2");
+        masks.add("maskn3");
+        masks.add("maskn4");
+        masks.add("masknose1");
+        masks.add("masknose2");
+        masks.add("masknose3");
+        masks.add("masknose4");
+        masks.add("masknose5");
+        
 
         effects = new ArrayList<>();
         effects.add("none");

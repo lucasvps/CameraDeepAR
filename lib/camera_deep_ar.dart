@@ -17,25 +17,15 @@ enum CameraDirection { back, front }
 
 enum Masks {
   none,
-  aviators,
-  bigmouth,
-  dalmatian,
-  bcgSeg,
-  look2,
-  fatify,
-  flowers,
-  grumpycat,
-  koala,
-  lion,
-  mudMask,
-  obama,
-  pug,
-  slash,
-  sleepingmask,
-  smallface,
-  teddycigar,
-  tripleface,
-  twistedFace,
+  maskn1,
+  maskn2,
+  maskn3,
+  maskn4,
+  masknose1,
+  masknose2,
+  masknose3,
+  masknose4,
+  masknose5
 }
 
 enum Effects {
@@ -86,13 +76,15 @@ class CameraDeepAr extends StatefulWidget {
       ],
       this.supportedMasks = const [
         Masks.none,
-        Masks.aviators,
-        Masks.bigmouth,
-        Masks.dalmatian,
-        Masks.look2,
-        Masks.flowers,
-        Masks.grumpycat,
-        Masks.lion,
+        Masks.maskn1,
+  	    Masks.maskn2,
+  	    Masks.maskn3,
+  	    Masks.maskn4,
+        Masks.masknose1,
+        Masks.masknose2,
+        Masks.masknose3,
+        Masks.masknose4,
+        Masks.masknose5
       ],
       this.supportedEffects = const [
         Effects.none,
