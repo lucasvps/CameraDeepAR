@@ -39,6 +39,20 @@ enum Masks: String, CaseIterable {
     case masknose3
     case masknose4
     case masknose5
+    case rejuvenation1
+    case rejuvenation2
+    case rejuvenation3
+    case rejuvenation4
+    case rino1l1
+    case rino1l2
+    case rino1l3
+    case rino2l1
+    case rino2l2
+    case rino2l3
+    case rino2l4
+    case rino3l1
+    case rino3l2
+    case rino3l3
 }
 
 enum Effects: String, CaseIterable {
