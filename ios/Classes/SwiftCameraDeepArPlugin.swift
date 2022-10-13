@@ -29,11 +29,12 @@ enum RecordingMode : String, CaseIterable {
 }
 
 enum Masks: String, CaseIterable {
+    
     case none
-    case maskn1
-    case maskn2
-    case maskn3
     case frame_salvador
+    case back_salvador
+    case back_cancum
+    case frame_cancun
     
 }
 

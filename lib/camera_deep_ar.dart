@@ -17,10 +17,10 @@ enum CameraDirection { back, front }
 
 enum Masks {
   none,
-  maskn1,
-  maskn2,
-  maskn3,
   frame_salvador,
+  frame_cancun,
+  back_salvador,
+  back_cancum,
 }
 
 enum Effects {
@@ -70,11 +70,10 @@ class CameraDeepAr extends StatefulWidget {
         Filters.bleachbypass,
       ],
       this.supportedMasks = const [
-        Masks.none,
-        Masks.maskn1,
-        Masks.maskn2,
-        Masks.maskn3,
         Masks.frame_salvador,
+        Masks.frame_cancun,
+        Masks.back_cancum,
+        Masks.back_salvador,
       ],
       this.supportedEffects = const [
         Effects.none,

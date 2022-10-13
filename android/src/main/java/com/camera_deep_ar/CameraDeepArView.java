@@ -271,10 +271,10 @@ public class CameraDeepArView implements PlatformView,
     private void initializeFilters() {
         masks = new ArrayList<>();
         masks.add("none");
-        masks.add("maskn1");
-        masks.add("maskn2");
-        masks.add("maskn3");
         masks.add("frame_salvador");
+        masks.add("back_cancum");
+        masks.add("back_salvador");
+        masks.add("frame_cancun");
 
         effects = new ArrayList<>();
         effects.add("none");
